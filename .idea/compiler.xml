@@ -9,5 +9,8 @@
         <module name="tomcat-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="servlet-demo" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

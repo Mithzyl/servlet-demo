@@ -1,10 +1,8 @@
-package com.itheima.web;
+package com.itheima.web.demo;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
-import java.io.IOException;
 
 @WebServlet("/demo5")
 public class ServletDemo5 extends MyHttpServlet {

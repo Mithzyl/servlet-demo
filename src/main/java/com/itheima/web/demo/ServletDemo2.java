@@ -1,20 +1,17 @@
-package com.itheima.web;
+package com.itheima.web.demo;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/demo3", loadOnStartup = 1)  // 设置访问路径
-public class ServletDemo3 implements Servlet {
-
-    private ServletConfig config;
+@WebServlet(urlPatterns = "/demo2", loadOnStartup = 1)  // 设置访问路径
+public class ServletDemo2 implements Servlet {
 
     // 初始化方法
     // servlet 第一次访问时调用, 只调用一次
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        this.config = servletConfig;
         System.out.println("Init...");
     }
 
@@ -36,8 +33,10 @@ public class ServletDemo3 implements Servlet {
 
     @Override
     public ServletConfig getServletConfig() {
-        return this.config;
+        return null;
     }
+
+
 
     @Override
     public String getServletInfo() {

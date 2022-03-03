@@ -1,4 +1,4 @@
-package com.itheima.web;
+package com.itheima.web.demo;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
